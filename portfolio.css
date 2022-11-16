@@ -16,7 +16,23 @@ body{
     font-size: 20px;
     font-weight: bold;
 }
+p{
+    font-size: 14px;
+}
+h2{
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
 
+#navbarToggler{
+    color:black;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    font-weight:bold;
+    color:black;
+}
 /****************
 
 ABOUT
@@ -62,4 +78,31 @@ ABOUT
 
 #about .icons a {
     color: #000;
+}
+
+/****************
+
+project
+
+****************/
+
+video{
+    background-color: black;
+}
+
+#project{
+    margin: 60px auto;
+    width: 80%
+}
+
+#project h2{
+    text-align: center;
+}
+
+#project .card img{
+    width: 100%;
+}
+
+#project .card-title {
+    font-weight: bold;
 }
